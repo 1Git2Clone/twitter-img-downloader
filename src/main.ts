@@ -1,7 +1,7 @@
 import browser from "webextension-polyfill";
 
 const SAVE_AS_PNG = "save-as-png";
-const VALID_IMAGE_SOURCES = ["pbs.twimg.com"];
+const VALID_IMAGE_SOURCES = ["pbs.twimg.com", "x.com", "twitter.com"];
 
 browser.runtime.onInstalled.addListener(() => {
   browser.contextMenus.create({
@@ -39,7 +39,7 @@ browser.tabs.onActivated.addListener(() => {
 });
 
 browser.contextMenus.onClicked.addListener((info) => {
-  if (info.menuItemId === "save-as-png") {
+  if (info.menuItemId === SAVE_AS_PNG) {
     const url = info.srcUrl ?? "";
 
     if (!validSaveAsPngUrl(url)) {
