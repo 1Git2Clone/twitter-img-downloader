@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Save Twitter Image as PNG",
+  "version": "1.0",
+  "description": "Adds a context menu option to save Twitter images as PNG.",
+  "permissions": ["contextMenus", "downloads", "tabs"],
+  "background": {
+    "scripts": ["dist/main.js"],
+    "persistent": false,
+    "type": "module"
+  },
+  "host_permissions": ["https://pbs.twimg.com/*"],
+  "icons": {
+    "48": "assets/icon.png",
+    "96": "assets/icon.png"
+  }
+}
