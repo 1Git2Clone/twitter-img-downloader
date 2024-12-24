@@ -22,3 +22,18 @@ From:
 To:
 - https://pbs.twimg.com/media/GfYlXIkbMAAG5XL?format=png&name=large
 ```
+
+## Setting up
+
+### Firefox
+
+[Video Showcase](https://github.com/user-attachments/assets/27b392fe-6b08-4fb2-bf82-72a14dadcd89 "Video Showcase")
+
+> [!NOTE]
+> You can get the extension from [here](https://addons.mozilla.org/en-US/firefox/addon/save-twitter-image-as-png).
+
+### Usage
+
+1. Go on ~~x~~ twitter.
+
+2. Right click on an image and you'll have a `Save as PNG` context menu option.
