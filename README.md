@@ -1,5 +1,10 @@
 # Twitter PNG Downloader
 
+[![Mozilla Addons Icon]][Mozilla Addons]
+
+[Mozilla Addons Icon]: https://img.shields.io/badge/Mozilla%20Addons-Save%20Twitter%20Image%20as%20PNG-orange.svg
+[Mozilla Addons]: https://addons.mozilla.org/en-US/firefox/addon/save-twitter-image-as-png
+
 A very simple browser extension that adds a context menu option to save Twitter
 images as a PNG directly.
 
