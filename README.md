@@ -1,9 +1,11 @@
 # Twitter PNG Downloader
 
-[![Mozilla Addons Icon]][Mozilla Addons]&emsp;[![License Icon]][LICENSE]
+[![Mozilla Addons Icon]][Mozilla Addons]&emsp;[![Build Icon]][Build Status]&emsp;[![License Icon]][LICENSE]
 
 [Mozilla Addons Icon]: https://img.shields.io/badge/Mozilla%20Addons-Save%20Twitter%20Image%20as%20PNG-orange.svg
 [Mozilla Addons]: https://addons.mozilla.org/en-US/firefox/addon/save-twitter-image-as-png
+[Build Icon]: https://img.shields.io/github/actions/workflow/status/1git2clone/twitter-img-downloader/ci.yml?branch=main
+[Build Status]: https://github.com/1git2clone/twitter-img-downloader/actions?query=branch%3Amain
 [License Icon]: https://img.shields.io/badge/license-MIT-blue.svg
 [LICENSE]: LICENSE
 
