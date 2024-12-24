@@ -4,7 +4,8 @@
   "packageManager": "yarn@1.22.22",
   "main": "src/main.ts",
   "scripts": {
-    "watch": "nodemon --ext ts --watch src/ --exec \"npx webpack\""
+    "build": "npx webpack --no-watch",
+    "watch": "npx webpack --watch"
   },
   "author": "1Kill2Steal",
   "license": "MIT",
@@ -16,8 +17,6 @@
     "@typescript-eslint/parser": "^8.18.1",
     "eslint": "^9.17.0",
     "eslint-plugin-browser": "^0.0.0",
-    "globals": "^15.14.0",
-    "nodemon": "^3.1.9",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2",
