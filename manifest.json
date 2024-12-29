@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Save Twitter Image as PNG",
   "version": "1.2",
   "description": "Adds a context menu option to save Twitter images as PNG.",
