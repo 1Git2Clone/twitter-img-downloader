@@ -29,8 +29,6 @@ export function saveAsTargetFormat(url: string) {
 
   const pngUrl = url
     .replace(/\?format=\w+/, `?format=${TARGET_FORMAT}`)
-    // NOTE: `&name=large` gives a higher quality image than omitting the
-    // whole part.
     .replace(/&name=\w+/, `&name=4096x4096`);
 
   // Example:
