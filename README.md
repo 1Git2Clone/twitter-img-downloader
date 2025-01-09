@@ -22,7 +22,7 @@ From:
 - https://pbs.twimg.com/media/GfYlXIkbMAAG5XL?format=jpg&name=medium
 
 To:
-- https://pbs.twimg.com/media/GfYlXIkbMAAG5XL?format=png&name=large
+- https://pbs.twimg.com/media/GfYlXIkbMAAG5XL?format=png&name=4096x4096
 ```
 
 ## Setting up
